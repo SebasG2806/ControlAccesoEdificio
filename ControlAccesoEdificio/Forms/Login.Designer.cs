@@ -61,6 +61,7 @@ namespace ControlAccesoEdificio.Forms
             this.txtIngresar.TabIndex = 2;
             this.txtIngresar.Text = "INGRESAR";
             this.txtIngresar.UseVisualStyleBackColor = true;
+            this.txtIngresar.Click += new System.EventHandler(this.txtIngresar_Click);
             // 
             // label1
             // 
